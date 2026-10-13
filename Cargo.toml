@@ -1,0 +1,11 @@
+[package]
+name = "aeternus_vulkan_poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.22.0", features = ["vulkan", "fusion"] }
+npyz = "0.8"
+
+[profile.release]
+opt-level = 3
